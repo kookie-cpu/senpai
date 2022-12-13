@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: white;
+}
+#services{
+    padding: 30px 0;
+   
+}
+.server-lists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.server-lists div{
+    /* background:  url(images/rimz.gif); */
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background o.5s, transform 0.5s;
+    background-color: #c4baba;
+    /* opacity: 25%; */
+    color: white;
+}
+.igno{
+    transition: 0.5;
+}
+.igno:hover{
+    -webkit-text-size-adjust: 17px;
+    
+}
+.kookie-1{
+    background: url(images/levi.gif);
+    color: #c4baba;
+    
+}
+.server-lists div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+.server-lists div i:hover{
+    -webkit-text-size-adjust: auto;
+    color: white;
+}
+.server-lists div h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 81);
+}
+.server-lists div h1:hover{
+    color: white;
+}
+.server-lists div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0,5s;
+}
+.server-lists div a:hover{
+    color: rgba(14, 59, 102, 0.877);
+}
+
+.server-lists div:hover{
+    background: rgb(255, 0, 81);
+    transform: translateY(-20px);
+    
+}
+.usuf{
+    font-size: 80px;
+}
+.server-lists div p{
+    font-size: 15px;
+    
+}
+.server-lists div p:hover{
+    color: white;
+}
+.kookie-2{
+    background: url(images/yohan.gif);
+}
+.kookie-3{
+    background: url(images/naru.gif);
+}
+.kookie-4{
+    background: url(images/haha.gif);
+}
+.kookie-5{
+    background: url(images/eden.gif);
+}
+.kookie-6{
+    background: url(images/samurai.gif)
+}
+.kookie-7{
+    background: url(images/mushu.gif)
+}
+.kookie-8{
+    background: url(images/askeladd.gif);
+}
+h2{
+    text-align: center;
+}
+
